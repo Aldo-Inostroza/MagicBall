@@ -2,38 +2,45 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/fuego"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/titulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Conoce tu Destino"
         android:layout_gravity="center"
         android:layout_marginTop="16dp"
-        android:textSize="29sp"
-        android:textColor="#FF0000"
+        android:text="Conoceras tu Destino"
+        android:textAlignment="center"
+        android:textColor="#00FF00"
+        android:textSize="36sp"
         android:textStyle="italic|bold" />
 
     <ImageView
         android:id="@+id/boton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="223dp"
+        android:layout_height="201dp"
         android:layout_gravity="center"
         android:layout_margin="48dp"
-        app:srcCompat="@drawable/ball" />
+        app:srcCompat="@drawable/bola8" />
 
     <TextView
         android:id="@+id/respuesta"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="289dp"
+        android:layout_height="110dp"
         android:layout_gravity="center"
         android:layout_marginTop="24dp"
-        android:textSize="24sp"
-        android:textColor="#000000"
-        android:textStyle="italic|bold"
-        android:text="..."/>
+        android:text="..."
+        android:textAlignment="center"
+        android:textColor="#000077"
+        android:textSize="36sp"
+        android:textStyle="italic|bold" />
+
+
+
 
 </LinearLayout>
